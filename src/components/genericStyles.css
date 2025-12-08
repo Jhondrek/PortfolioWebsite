@@ -1,45 +1,154 @@
-.hero__tittle{
-    color: #323232;
-    font-size:2.5rem;
+/* Ancho de la barra */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-.hero__tittle-secondary-color{
-    color: #04ddb2;
+/* Fondo de la barra */
+::-webkit-scrollbar-track {
+  background: var( --background-color); /* color del fondo */
 }
 
-.hero__description{
-    font-size: 1.1rem;
+/* La parte que se mueve */
+::-webkit-scrollbar-thumb {
+  background: var(--call-to-action-secondary-color); /* color del scroll */
+  border-radius: 10px;
 }
 
-.hero{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 65px;
-    margin-bottom: 2rem;
-    color: black;
-    }
+/* Efecto al pasar el mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--call-to-action-secondary-color);
+}
+
 
 .btn{
     padding: 0 20px;
     height: 50px;
     font-size: 1.2rem;
-    background-color: #04ddb2;
     border: none;
     border-radius: 25px;
     font-weight: 500;
     transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--main-font-color);
+    background-color: var(--call-to-action-color);
+    transition: all 0.2s ease-in-out;
+
 }
 
-@media screen and (min-width:768px) {
-    
-.hero__tittle{
-    font-size: 5rem;
+
+
+.navLink:hover{
+    text-decoration: none;
+    color: var(--main-font-color);
+    border-color: var(--main-font-color);
+    background-color: var(--secondary-background);
 }
 
-.hero__description{
+
+.btn:hover{
+    background-color: var(--call-to-action-secondary-color);
+
+}
+
+.projectArticle .projectArticle__hiddenText{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: black;
+    transition: all 3s ease-in-out;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.projectArticle:hover .projectArticle__hiddenText{
+    color: var(--main-font-color);
+    text-align: center;
+}
+
+
+.projectArticle{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.projectArticle__TechnologyList{
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-bottom: 1px;
+
+}
+
+.projectArticle__technology{
+    margin: 10px 0px;
+    text-align: start;
+}
+
+
+
+.projectArticle h2{
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    text-align: start;
     font-size: 2rem;
+    font-weight: 100;
 }
 
+.projectArticle p{
+    margin-bottom: 1.5em;
+    font-size: 1.2rem;
+    text-align:justify;
+    margin: 50px auto;
+    
+}
+
+.projectArticle .Links__container__warningP{
+    text-align: center;
+    display: inline-block;
+}
+
+
+.projectTechImgs{
+    width: 15px;
+}
+
+.projectMainImg{
+    width: 100%;
+    margin-bottom: 40px;
+}
+    
+    
+    
+
+@media screen and (min-width: 768px) {
+
+    .projectArticle .Links__container__warningP{
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+    .projectArticle h2{ 
+        width: fit-content;
+    }
+
+
+    .projectMainImg{
+        width: 50%;
+    }
+
+    .projectArticle p{
+    margin-right: 30px;
+
+}
+
+.gitAnchor{
+    display: flex;
+    align-items: center;
+}
 }

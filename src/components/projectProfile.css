@@ -1,0 +1,48 @@
+.projectArticle__projectInfo-profile{
+    width: 100%;
+}
+
+.projectProfileArticle{
+    margin: 100px 0px;
+    padding: 40px;
+}
+
+.projectArticleProfile__technologyImg{
+    width: 50px;
+}
+
+.projectArticleProfile__TechnologyList{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    margin: 5px 0px 70px 0px;
+}
+
+.projectProfileMainImg{
+    width: 100%;
+    margin: auto;
+}
+
+.projectArticle__TechnologyList--profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 100px 0px;
+}
+
+@media screen and (min-width:786px) {
+   
+    .projectArticle__TechnologyList--profile{
+        align-items: start;
+        margin-left: 20px;
+        align-items: center;
+    }
+
+    .projectArticle__technology{
+        margin: 0px;
+    }
+
+}
