@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function getTechnologiesJsx(project){
     const technologiesJsx = project.technologies.map((technology)=>
                     
-                    <li className="projectArticle__technology">{technology.name} </li>
+                    <li key={technology.name} className="projectArticle__technology">{technology.name} </li>
             )
     return technologiesJsx
 }
@@ -13,7 +13,7 @@ function getTechnologiesJsx(project){
 function generateTechnologiesImgsJsx(project){
     const technologiesJsx = project.technologies.map((technology)=>
                     
-                    <img src={technology.image} alt={`${technology.name} logo`} className="projectArticleProfile__technologyImg"/>
+                    <img key={technology.image} src={technology.image} alt={`${technology.name} logo`} className="projectArticleProfile__technologyImg"/>
             )
     return technologiesJsx
 }
@@ -29,7 +29,7 @@ export function generateProjectsJsx(numberOfProjectsToDisplay=projects.length+1)
             console.log(technologiesJsx)
 
             const newJsx = 
-            <article className="projectArticle">
+            <article className="projectArticle" key={project.id}>
                 <NavLink className="navLink" to={`/examples/${project.id}`}>
 
                     <div className="projectArticle__projectInfo">
