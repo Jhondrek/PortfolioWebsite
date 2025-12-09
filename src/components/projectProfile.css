@@ -33,6 +33,23 @@
     margin: 100px 0px;
 }
 
+.links__container--profile{
+    margin-top: 80px;
+    text-align: center;
+}
+
+ .links__container--profile a{
+        font-size: 2rem;
+        text-decoration: none;
+        color: var(--call-to-action-color);
+    }
+
+    .links__container--profile img{
+        width: 40px;
+        background-color: var(--main-font-color);
+        margin-left: 40px;   
+    }
+
 @media screen and (min-width:786px) {
    
     .projectArticle__TechnologyList--profile{
@@ -45,4 +62,13 @@
         margin: 0px;
     }
 
+    
+    .links__container--profile{
+        text-align: left;
+        margin-top: 20px;
+        width: fit-content;
+        display: flex;
+    }
+
+      
 }

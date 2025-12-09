@@ -78,9 +78,9 @@ export function generateProjectJsx(id){
                         
                     </div>
                     <img className="projectProfileMainImg" src={selectedProject.imgUrl} alt={`Screenshot of the ${selectedProject.title} project`} />
-                    <div className="links__container">
+                    <div className="links__container--profile">
                         { selectedProject.completed ?
-                        <a className="liveSiteAnchor" href={selectedProject.liveProject} target="_blank" >Live site →</a> : <p className="Links__container__warningP">Currently under development</p>}
+                        <a className="liveSiteAnchor" href={selectedProject.liveProject} target="_blank" >→ Live site </a> : <p className="Links__container__warningP">Currently under development</p>}
                         <a href={selectedProject.gitHub} target="_blank"><img  src={gitImg} alt="git logo" /></a>
                     </div>
             </article>

@@ -4,6 +4,7 @@ import retroGameImg from "../assets/RetroMemoryGame.png"
 import ahorcadoImg from "../assets/AhorcadoImg.png"
 import MovieApiImg from "../assets/FilmApiApp.png"
 import TenziesImg from "../assets/Tenzies.png"
+import portfolioImg from "../assets/portfolio.png"
 
 
 import HTMLImg from '../assets/html-5-logo-svg-1.svg';
@@ -94,7 +95,23 @@ export const projects = [
         liveProject:"https://zesty-basbousa-f43ff7.netlify.app/watchlist",
         gitHub:"https://github.com/Jhondrek/Movie-watchlist",
         completed: true,
-        id:5
+        id:6
+    }, 
+
+    ,
+
+    {
+        title:"Portfolio website",
+        description:"My personal portfolio website built with React",
+        longDescription:`
+        This project is my personal portfolio website built with React. It uses React Router to handle navigation between pages and dynamic route parameters to display individual project profiles. The site is fully component-based for better performance and scalability, showcases my most relevant projects with detailed descriptions, includes GitHub and live demo links hosted on Netlify, and is fully responsive with both mobile and desktop versions. It also features a contact section for easy communication.
+        `,
+        imgUrl: portfolioImg,
+        technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name:"react", image: ReactImg}, {name: "gitHub", image : GitHub}],
+        liveProject:"https://meek-tartufo-2710d6.netlify.app/",
+        gitHub:"https://github.com/Jhondrek/PortfolioWebsite",
+        completed: true,
+        id:7
     }
 
 
