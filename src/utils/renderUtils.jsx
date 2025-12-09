@@ -62,9 +62,9 @@ export function generateProjectsJsx(numberOfProjectsToDisplay=projects.length+1)
 }
 
 export function generateProjectJsx(id){
-    
+    console.log(projects)
    const selectedProject = projects.find((project)=> project.id == id)
-    console.log(selectedProject)
+    
 
     const projectJsx = <article className="projectArticle projectProfileArticle">
 

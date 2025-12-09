@@ -4,7 +4,7 @@ import retroGameImg from "../assets/RetroMemoryGame.png"
 import ahorcadoImg from "../assets/AhorcadoImg.png"
 import MovieApiImg from "../assets/FilmApiApp.png"
 import TenziesImg from "../assets/Tenzies.png"
-import portfolioImg from "../assets/portfolio.png"
+import portfolioImg from "../assets/portfolioo.png"
 
 //test
 
@@ -98,9 +98,6 @@ export const projects = [
         completed: true,
         id:6
     }, 
-
-    ,
-
     {
         title:"Portfolio website",
         description:"My personal portfolio website built with React",
