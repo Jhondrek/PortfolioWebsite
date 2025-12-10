@@ -26,7 +26,7 @@ export const projects = [
         Residents can sign in with Google or email/password, register their house number, and manage their personal bookings. The app includes conflict detection, guided reservation pop-ups, secure access rules, dynamic schedule rendering, and a responsive UI optimized for mobile and desktop.`,
         imgUrl:condominiumImg,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name:"firebase", image: Firebase}, {name: "gitHub", image : GitHub}],
-        liveProject:"https://peaceful-faloodeh-62ef56.netlify.app/index.html",
+        liveProject:"https://sistema-de-reservas-condominio-app-mu.vercel.app/index.html",
         gitHub:"https://github.com/Jhondrek/Sistema-de-reservas-condominio-app",
         completed: true,
         id:1
@@ -41,7 +41,7 @@ export const projects = [
         The home page features a fully responsive video background, with transparent and blurred UI elements that allow motion to subtly appear behind text and inputs without sacrificing readability. CSS Modules and a global variable stylesheet are used to maintain scalable, maintainable styling across components.`,
         imgUrl:travelPlanner,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name:"react", image: ReactImg}, {name: "gitHub", image : GitHub}],
-        liveProject:"https://earnest-lollipop-866fad.netlify.app/",
+        liveProject:"",
         gitHub:"https://github.com/Jhondrek/PackWise",
         completed: false,
         id:2
@@ -66,7 +66,7 @@ export const projects = [
         Your goal is to solve the word before the entire tech world collapses! The final language standing is COBOL, so the ultimate mission is simple: save humanity from a future where developers are doomed to learn COBOL.`,
         imgUrl: ahorcadoImg,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name:"react", image: ReactImg}, {name: "gitHub", image : GitHub}],
-        liveProject:"https://unrivaled-ganache-909f03.netlify.app/",
+        liveProject:"https://assembly-end-game-26dv.vercel.app/",
         gitHub:"https://github.com/Jhondrek/Assembly-EndGame",
         completed: true,
         id:4
@@ -79,7 +79,7 @@ export const projects = [
         `,
         imgUrl: TenziesImg,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg},{name:"react", image: ReactImg}, {name: "gitHub", image : GitHub}],
-        liveProject:"https://stunning-daffodil-e6101a.netlify.app/",
+        liveProject:"https://1-tenzies-game.vercel.app/",
         gitHub:"https://github.com/Jhondrek/1-Tenzies-game",
         completed: true,
         id:5
@@ -93,7 +93,7 @@ export const projects = [
         `,
         imgUrl: MovieApiImg,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name: "gitHub", image : GitHub}],
-        liveProject:"https://zesty-basbousa-f43ff7.netlify.app/watchlist",
+        liveProject:"https://movie-watchlist-gray-iota.vercel.app/",
         gitHub:"https://github.com/Jhondrek/Movie-watchlist",
         completed: true,
         id:6
@@ -106,7 +106,7 @@ export const projects = [
         `,
         imgUrl: portfolioImg,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name:"react", image: ReactImg}, {name: "gitHub", image : GitHub}],
-        liveProject:"https://meek-tartufo-2710d6.netlify.app/",
+        liveProject:"https://portfolio-website-eight-topaz-28.vercel.app/",
         gitHub:"https://github.com/Jhondrek/PortfolioWebsite",
         completed: true,
         id:7
