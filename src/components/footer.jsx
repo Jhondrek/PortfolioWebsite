@@ -4,7 +4,6 @@ import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faComment} from "@fortawesome/free-solid-svg-icons"
 import { faEnvelope} from "@fortawesome/free-regular-svg-icons"
-import logo from "../assets/logo.png"
 import { NavLink } from "react-router-dom"
 
 
