@@ -56,16 +56,14 @@
 .projectArticle .projectArticle__hiddenText{
     font-size: 1.3rem;
     font-weight: bolder;
-    color: black;
     transition: all 3s ease-in-out;
     text-align: center;
     margin: 30px 0px 10px 0px;
+    text-align: center;
+    color: var(--main-font-color);
 }
 
-.projectArticle:hover .projectArticle__hiddenText{
-    color: var(--main-font-color);
-    text-align: center;
-}
+
 
 
 .projectArticle{
