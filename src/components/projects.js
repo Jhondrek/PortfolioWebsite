@@ -21,9 +21,24 @@ export const projects = [
     {
         title:"Condominium Common Areas Reservation System",
         description:"Web app for booking condominium common areas, managing reservations, and preventing scheduling conflicts through a secure, responsive interface.",
-        longDescription: `A web application that allows condominium residents to book shared amenities without scheduling conflicts. The system displays all existing reservations in real time, prevents overlapping bookings, and provides a smooth user flow for creating, viewing, and canceling reservations.
+        longDescription: `
+        
+        Designed and developed a full-featured reservation system to solve a real scheduling problem at Condominio La Valencia, a residential community in Heredia, Costa Rica, where residents lacked an organized way to book shared amenities. 
 
-        Residents can sign in with Google or email/password, register their house number, and manage their personal bookings. The app includes conflict detection, guided reservation pop-ups, secure access rules, dynamic schedule rendering, and a responsive UI optimized for mobile and desktop.`,
+• Worked closely with residents to understand the issues to solve, define requirements, and design the application structure
+• Translated user needs into functional UI flows, application logic, and database structure
+• Built the entire system from scratch, including authentication, dashboard, scheduling interface, and reservation management
+• Implemented Google and email/password authentication with user profile validation (house number uniqueness, existing user checks)
+• Developed a real-time scheduling view that visually displays availability and prevents overlapping reservations
+• Implemented conflict-detection logic to block invalid bookings and ensure data consistency
+• Built guided reservation flows using pop-ups, confirmations, and contextual feedback messages
+• Added role-based security rules to ensure users can only modify or delete their own reservations
+• Implemented real-time updates using Firebase listeners to synchronize reservations across users
+• Designed a fully responsive UI optimized for both mobile and desktop
+• Improved UX through iterative testing, bug fixing, and edge-case handling (hover states, date changes, validation states, loading screens)
+
+
+        `,
         imgUrl:condominiumImg,
         technologies: [{name:"html", image: HTMLImg }, {name:"css", image: CSSImg}, {name:"javascript", image:JsImg}, {name:"firebase", image: Firebase}, {name: "gitHub", image : GitHub}],
         liveProject:"https://sistema-de-reservas-condominio-app-mu.vercel.app/index.html",

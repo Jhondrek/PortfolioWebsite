@@ -50,6 +50,11 @@
         margin-left: 40px;   
     }
 
+    .projectArticle_longDescription{
+          white-space: pre-line;
+
+    }
+
 @media screen and (min-width:786px) {
    
     .projectArticle__TechnologyList--profile{
